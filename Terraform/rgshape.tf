@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "default" {
   name = "RG-SHAPE-DIGITAL"
-  location = "eastus"
+  location = "Brazil South"
 
   tags = {
     Created-by = "Jessica Milsted"
