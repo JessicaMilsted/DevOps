@@ -12,3 +12,4 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
 EXPOSE 9555
 CMD ["python","app.py"]
+HEALTHCHECK CMD curl --fail http://localhost:9555 || exit 1
