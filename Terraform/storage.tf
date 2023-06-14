@@ -1,4 +1,4 @@
-resource "azurerm_storage_account" "default" {
+resource "azurerm_storage_account" "storage_account" {
   name                     = "sashapedigital"
   resource_group_name      = "RG-SHAPE-DIGITAL"
   location                 = "Brazil South"
